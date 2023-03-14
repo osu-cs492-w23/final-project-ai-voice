@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
     implementation 'com.squareup.moshi:moshi:1.14.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
 
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
@@ -55,6 +56,8 @@ dependencies {
     implementation 'org.chromium.net:cronet-api:98.4758.101'
 
     implementation 'androidx.preference:preference-ktx:1.2.0'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.1'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
