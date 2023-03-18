@@ -141,19 +141,11 @@ class QuickGenerateFragment: Fragment(R.layout.quick_generate) {
 
 
         Log.d("get line is", getString(R.string.pref_quick_voice_key))
-        val quickvoice = prefManager.getString(getString(R.string.pref_quick_voice_key), null)
-        Log.d("quickvoice is", quickvoice!!)
+        val quickvoice = prefManager.getString(getString(R.string.pref_quick_voice_key), "Arnold")
         val idList : Array<out String> = resources.getStringArray(R.array.pref_quick_voice_values)
-        Log.d("quickvoice is", quickvoice!!)
         val voiceList : Array<out String> = resources.getStringArray(R.array.pref_quick_voice_entries)
-        Log.d("quickvoice is", quickvoice!!)
         val idx = voiceList.indexOf(quickvoice)
-        Log.d("idx is", idx.toString())
-
         val quickid = idList[idx]
-        Log.d("quickvoice is", quickvoice!!)
-
-
 
         newVoice = Voice(quickid, quickvoice!!, "junk")
 
