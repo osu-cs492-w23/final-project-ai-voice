@@ -38,7 +38,7 @@
 
     <string name="dropdown_default_texts">dropDownTextMenu</string>
     <string name="share_audio">Share audio</string>
-    <string name="label_quick_generate">Generate text based off preferences</string>
+    <string name="label_quick_generate">Quick Generate</string>
     <string name="label_history_by_selected_voice">History by selected voice</string>
     <string name="label_history_view">History</string>
     <string name="label_voice_list">Available Voices</string>
