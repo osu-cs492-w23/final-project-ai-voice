@@ -38,10 +38,6 @@ class VoiceListFragment: Fragment(R.layout.voice_list) {
 
         Log.d("hidePremade", hidePremade.toString())
 
-
-
-
-
         voiceResultsRV.adapter = voiceAdapter
 
         if(voiceViewModel.voiceListResults.value == null){
@@ -54,7 +50,7 @@ class VoiceListFragment: Fragment(R.layout.voice_list) {
             }
         }
 
-        else if(hidePremade == "Show pre-made voices"){
+        else {
             voiceViewModel.voiceListResults.observe(viewLifecycleOwner) { results ->
                 voiceAdapter.addVoice(results?.voices)
             }

@@ -11,4 +11,27 @@
         <item>@string/pref_hide_premade_entry_show_premade</item>
         <item>@string/pref_hide_premade_entry_hide_premade</item>
     </string-array>
+
+    <string-array name="pref_quick_voice_entries">
+        <item>Rachel</item>
+        <item>Domi</item>
+        <item>Bella</item>
+        <item>Antoni</item>
+        <item>Elli</item>
+        <item>Josh</item>
+        <item>Arnold</item>
+        <item>Adam</item>
+        <item>Sam</item>
+    </string-array>
+    <string-array name="pref_quick_voice_values">
+        <item>21m00Tcm4TlvDq8ikWAM</item>
+        <item>AZnzlk1XvdvUeBnXmlld</item>
+        <item>EXAVITQu4vr4xnSDxMaL</item>
+        <item>ErXwobaYiN019PkySvjV</item>
+        <item>MF3mGyEYCl7XYWbV9V6O</item>
+        <item>TxGEqnHWrfWFTfGW9XjX</item>
+        <item>VR6AewLTigWG4xSOukaG</item>
+        <item>pNInz6obpgDQGcFmaJgB</item>
+        <item>yoZ06aMxZJJ28mfd3POQ</item>
+    </string-array>
 </resources>

@@ -96,6 +96,10 @@
     <string name="pref_hide_premade_value_hide_premade">hidepremade</string>
 
     <string name="pref_hide_premade_key">hidepremade</string>
-    <string name="pref_hide_premade_voices_default_value">@string/pref_hide_premade_value_show_premade</string>
+    <string name="pref_hide_premade_voices_default_value">@string/pref_hide_premade_entry_show_premade</string>
+
+    <string name="pref_quick_voice">Set Quick Generate Voice</string>
+    <string name="pref_quick_voice_key">quickvoice</string>
+    <string name="pref_quick_voice_default_value">Arnold</string>
 
 </resources>

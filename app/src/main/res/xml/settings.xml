@@ -14,6 +14,14 @@
             android:defaultValue="@string/pref_hide_premade_voices_default_value"
             app:useSimpleSummaryProvider="true" />
 
+        <ListPreference
+            android:title="@string/pref_quick_voice"
+            android:key="@string/pref_quick_voice_key"
+            android:entries="@array/pref_quick_voice_entries"
+            android:entryValues="@array/pref_quick_voice_entries"
+            android:defaultValue="@string/pref_quick_voice_default_value"
+            app:useSimpleSummaryProvider="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
